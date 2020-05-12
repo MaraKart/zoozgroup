@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" href="http://yourlogomaster.com/projects/zooz_group/images/favicon.ico" type="image/x-icon">
+<title>Zooz Group</title>
+<link href="css/fontawesome-all.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="css/css2.css" rel="stylesheet">
+<style>
+.select {
+	position: relative;
+  letter-spacing: 4px;
+  overflow: hidden;
+	background: linear-gradient(90deg, #000, #fff, #000);
+background-repeat: no-repeat;
+background-size: 80%;
+animation: animate 7s linear infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+0% {
+	background-position: -400%;
+}
+100% {
+	background-position: 400%;
+}
+}
+
+
+h1 { background: 50% 100%/20% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+
+/* font-family: "Montserrat", sans-serif; */
+
+-webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+}
+
+@-webkit-keyframes reveal {
+80% {
+	letter-spacing: 8px;
+}
+
+100% {
+	background-size: 300% 300%;
+}
+}
+
+@keyframes reveal {
+80% {
+	letter-spacing: 8px;
+}
+
+100% {
+	background-size: 300% 300%;
+}
+}
+
+</style>
+</head>
+<body>
+	<!-- <img class="background" src="bg.jpg" alt=""> -->
+<div class="body_content">
+	<script>
+	$('document').ready(function() {
+	$('body').css({"opacity":"0" });
+          $('body').animate({ opacity:1 }, 2500).prepend('<img class="background" src="img/bg.jpg">');
+					})
+					</script>
+	<div class="content_mid">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-6 col-md-push-6 text-center">
+                	<img src="logo.png" alt="" class="logo">
+                    <h1>WELCOME</h1>
+                    <p class="select">Please select a region</p>
+                    <a href="https://www.zooz.com.au/" class="btn1 f_btn"><img src="img/australia_flag.png" alt=""> <span>AUSTRALIA</span></a>
+                    <a href="https://www.zoozlosangeles.com/" class="btn1"><img src="img/usa_flag.png" alt=""> <span>UNITED STATES <br> OF AMERICA</span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-6 col-md-push-6"><p>© ZOOZ GROUP 2020</p></div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+
+</body>
+</html>
