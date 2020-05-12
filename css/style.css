@@ -1,16 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
-html,body{height:100%;padding:0;}
-body{margin:0;font-family: 'Montserrat', sans-serif;background: #000;}
-.background {
+html{height:100%;padding:0;background: #000;}
+body{height:100%;padding:0;margin:0;font-family: 'Montserrat', sans-serif; background: url(../img/bg.jpg) no-repeat top center fixed;
+background-size: cover;}
+/* .background {
 	background-color: #000;
 	background-position: center top;
 	background-size:cover;
 	height:100%;
-	position: absolute;
 
-}
+
+} */
 *{border:none;text-decoration:none;outline:none;box-sizing:border-box;}
 a:hover{text-decoration:none;}
 .clear{clear:both;overflow:hidden;}
